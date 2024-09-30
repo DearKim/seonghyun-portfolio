@@ -1,5 +1,4 @@
 import React from "react";
-import { useLocation, useNavigate } from "react-router-dom";
 import { CSSTransition } from "react-transition-group";
 import "./index.css";
 
@@ -9,8 +8,8 @@ interface MenuProps {
 
 const Menu = (props: MenuProps) => {
   const { open } = props;
-  const location = useLocation();
-  const navigate = useNavigate();
+  // const location = useLocation();
+  // const navigate = useNavigate();
 
   return (
     <>

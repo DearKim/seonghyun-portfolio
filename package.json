@@ -1,7 +1,8 @@
 {
-  "name": "react-boilerplate",
+  "name": "seonghyun-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://seonghyun.net",
   "dependencies": {
     "@egjs/flicking": "^4.11.4",
     "@egjs/react-flicking": "^4.11.4",
