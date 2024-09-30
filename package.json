@@ -2,11 +2,12 @@
   "name": "seonghyun-portfolio",
   "version": "0.1.0",
   "private": true,
- "homepage": "https://www.seonghyun.net",
+  "homepage": "https://www.seonghyun.net",
   "dependencies": {
     "@egjs/flicking": "^4.11.4",
     "@egjs/react-flicking": "^4.11.4",
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
+    "@fortawesome/free-brands-svg-icons": "^6.6.0",
     "@fortawesome/free-regular-svg-icons": "^6.6.0",
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
     "@fortawesome/react-fontawesome": "^0.2.2",

@@ -1,25 +1,17 @@
 import React from "react";
-import {
-  faBars,
-  faWindowMinimize,
-  faXmark,
-} from "@fortawesome/free-solid-svg-icons";
+import { faWindowMinimize, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { faSquare } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { IconButton } from "./IconButton";
 
 interface HeaderProps {
-  menuOnClick: () => void;
+  // menuOnClick: () => void;
 }
 
 function Header(props: HeaderProps) {
-  const { menuOnClick } = props;
+  // const { menuOnClick } = props;
 
   return (
     <div className="flex w-full justify-between p-4 border border-bg-blue rounded bg-bg-blue">
-      <div className="flex items-center mr-2">
-        <IconButton icon={faBars} color="#4A4A4A" onClick={menuOnClick} />
-      </div>
       <div className="flex items-center w-full">
         <span className="font-bold text-[14px]">KIM SEONG HYUN - HOMPAGE</span>
       </div>
