@@ -38,7 +38,7 @@ function Status() {
 
   return (
     <div className="flex items-center justify-end w-full">
-      <div className="flex flex-col w-[380px] rounded border border-input-grey">
+      <div className="flex flex-col w-[380px] rounded border border-input-grey shadow-lg">
         <div className="flex items-center justify-between p-2 bg-bg-blue">
           <span className="text-[14px] font-bold">
             KIM SEONG HYUN의 재직 상태는 ?

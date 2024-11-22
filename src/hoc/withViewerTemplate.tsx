@@ -93,7 +93,7 @@ const withViewerTemplate =
 
         {/* Header를 상단에 고정 */}
         <div className="w-full h-[82px] flex p-4 fixed top-0 left-0 right-0 bg-white z-50">
-          <Header />
+          <Header headerText="KIM SEONG HYUN - HOMPAGE" />
         </div>
 
         {/* Footer를 하단에 고정 */}
